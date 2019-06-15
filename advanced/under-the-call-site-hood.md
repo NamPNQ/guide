@@ -21,7 +21,7 @@ async function readFileTest() {
 
   // Read file synchronously
   // Note that we don't need `await` keyword.
-  const data2 = deno.readFile("test.json");
+  const data2 = deno.readFileSync("test.json");
 }
 ```
 
